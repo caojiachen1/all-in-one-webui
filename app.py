@@ -257,7 +257,7 @@ def transcribe_whisper(inputs, task, modelname):
 
 if __name__ == "__main__":
     scan_models = scan_model()
-    with gr.Blocks()) as app:
+    with gr.Blocks() as app:
         with gr.Tabs():
             with gr.TabItem("TTS"):
                 with gr.Tabs():
